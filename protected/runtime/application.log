@@ -6,3 +6,219 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/git/eyas/
 ---
+2014/10/26 22:49:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/
+---
+2014/10/26 22:49:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/
+---
+2014/10/26 22:49:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/
+---
+2014/10/26 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/
+---
+2014/10/26 23:19:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/
+---
+2014/10/26 23:19:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/
+---
+2014/10/26 23:37:19 [error] [exception.CException] exception 'CException' with message 'Alias "gii.GiiModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in D:\frameworks\yii_framework\YiiBase.php:322
+Stack trace:
+#0 D:\frameworks\yii_framework\YiiBase.php(196): YiiBase::import('gii.GiiModule', true)
+#1 D:\frameworks\yii_framework\base\CModule.php(282): YiiBase::createComponent('gii.GiiModule', 'gii', NULL, Array)
+#2 D:\frameworks\yii_framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#3 D:\frameworks\yii_framework\web\CWebApplication.php(276): CWebApplication->createController('gii')
+#4 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#5 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/git/eyas/gii
+---
+2014/10/26 23:38:28 [error] [exception.CException] exception 'CException' with message 'Alias "gii.GiiModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in D:\frameworks\yii_framework\YiiBase.php:322
+Stack trace:
+#0 D:\frameworks\yii_framework\YiiBase.php(196): YiiBase::import('gii.GiiModule', true)
+#1 D:\frameworks\yii_framework\base\CModule.php(282): YiiBase::createComponent('gii.GiiModule', 'gii', NULL, Array)
+#2 D:\frameworks\yii_framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#3 D:\frameworks\yii_framework\web\CWebApplication.php(276): CWebApplication->createController('gii')
+#4 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#5 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/git/eyas/gii
+---
+2014/10/26 23:38:28 [error] [exception.CException] exception 'CException' with message 'Alias "gii.GiiModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in D:\frameworks\yii_framework\YiiBase.php:322
+Stack trace:
+#0 D:\frameworks\yii_framework\YiiBase.php(196): YiiBase::import('gii.GiiModule', true)
+#1 D:\frameworks\yii_framework\base\CModule.php(282): YiiBase::createComponent('gii.GiiModule', 'gii', NULL, Array)
+#2 D:\frameworks\yii_framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#3 D:\frameworks\yii_framework\web\CWebApplication.php(276): CWebApplication->createController('gii')
+#4 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#5 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/git/eyas/gii
+---
+2014/10/26 23:38:29 [error] [exception.CException] exception 'CException' with message 'Alias "gii.GiiModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in D:\frameworks\yii_framework\YiiBase.php:322
+Stack trace:
+#0 D:\frameworks\yii_framework\YiiBase.php(196): YiiBase::import('gii.GiiModule', true)
+#1 D:\frameworks\yii_framework\base\CModule.php(282): YiiBase::createComponent('gii.GiiModule', 'gii', NULL, Array)
+#2 D:\frameworks\yii_framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#3 D:\frameworks\yii_framework\web\CWebApplication.php(276): CWebApplication->createController('gii')
+#4 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#5 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/git/eyas/gii
+---
+2014/10/26 23:38:29 [error] [exception.CException] exception 'CException' with message 'Alias "gii.GiiModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in D:\frameworks\yii_framework\YiiBase.php:322
+Stack trace:
+#0 D:\frameworks\yii_framework\YiiBase.php(196): YiiBase::import('gii.GiiModule', true)
+#1 D:\frameworks\yii_framework\base\CModule.php(282): YiiBase::createComponent('gii.GiiModule', 'gii', NULL, Array)
+#2 D:\frameworks\yii_framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#3 D:\frameworks\yii_framework\web\CWebApplication.php(276): CWebApplication->createController('gii')
+#4 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#5 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/git/eyas/gii
+---
+2014/10/26 23:38:29 [error] [exception.CException] exception 'CException' with message 'Alias "gii.GiiModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in D:\frameworks\yii_framework\YiiBase.php:322
+Stack trace:
+#0 D:\frameworks\yii_framework\YiiBase.php(196): YiiBase::import('gii.GiiModule', true)
+#1 D:\frameworks\yii_framework\base\CModule.php(282): YiiBase::createComponent('gii.GiiModule', 'gii', NULL, Array)
+#2 D:\frameworks\yii_framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#3 D:\frameworks\yii_framework\web\CWebApplication.php(276): CWebApplication->createController('gii')
+#4 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#5 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/git/eyas/gii
+---
+2014/10/26 23:39:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/login".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/index.php/gii/default/login
+---
+2014/10/26 23:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/login".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/index.php/gii/default/login
+---
+2014/10/26 23:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/login".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/index.php/gii/default/login
+---
+2014/10/26 23:39:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/login".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/index.php/gii/default/login
+---
+2014/10/26 23:39:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/login".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/index.php/gii/default/login
+---
+2014/10/26 23:39:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/login".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/index.php/gii/default/login
+---
+2014/10/26 23:39:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/login".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/index.php/gii/default/login
+---
+2014/10/26 23:39:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/login".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/index.php/gii/default/login
+---
+2014/10/26 23:39:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/login".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/index.php/gii/default/login
+---
+2014/10/26 23:39:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/login".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/index.php/gii/default/login
+---
+2014/10/26 23:39:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/login".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/index.php/gii/default/login
+---
+2014/10/26 23:39:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/login".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/index.php/gii/default/login
+---
