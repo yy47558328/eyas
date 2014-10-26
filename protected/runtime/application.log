@@ -1,0 +1,8 @@
+2014/10/26 22:46:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/
+---
