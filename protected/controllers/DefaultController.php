@@ -6,6 +6,6 @@ class DefaultController extends Controller
 {
 	public function actionIndex()
 	{
-		echo 11111111;
+		AsHelper::dump(Yii::getPathOfAlias('admin'));
 	}
 }

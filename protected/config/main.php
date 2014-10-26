@@ -1,5 +1,7 @@
 <?php
 
+Yii::setPathOfAlias('backend', dirname(__DIR__) . DIRECTORY_SEPARATOR . 'modules' . DIRECTORY_SEPARATOR . 'admin');
+
 $main =  array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'My Web Application',
