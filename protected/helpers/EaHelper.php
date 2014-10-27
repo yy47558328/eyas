@@ -1,5 +1,5 @@
 <?php
-class AsHelper 
+class EaHelper 
 {
     /**
      * 浏览器友好的变量输出

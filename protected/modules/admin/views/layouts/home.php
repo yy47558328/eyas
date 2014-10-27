@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <?php 
-        $this->module->register();
+       Yii::app()->assetBundle->register('backend.views.BackendAsset');
      ?>
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="assets/css/eyas.min.css" />

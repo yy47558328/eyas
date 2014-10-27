@@ -23,7 +23,9 @@ $main =  array(
 		
 		'db'=> require(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'database.php'),
 
-        'assetBundle' => 'assetbundle.components.EaAssetBundle',
+        'assetBundle' => array(
+            'class' => 'assetbundle.components.EaAssetBundle'
+        ),
 		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors

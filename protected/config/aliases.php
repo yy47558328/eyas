@@ -6,4 +6,8 @@ return array(
 
     //资源管理器
     'assetbundle' => dirname(__FILE__) . DIRECTORY_SEPARATOR .'../extensions/assetbundle',
+
+    'bower' => dirname(__FILE__) . DIRECTORY_SEPARATOR .'../bower',
+
+    'asset' => dirname(__FILE__) . DIRECTORY_SEPARATOR .'../assets',
 );

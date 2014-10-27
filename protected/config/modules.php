@@ -2,8 +2,7 @@
 $modules =  array(
 
 	'admin' => array(
-        'class' => 'application.modules.admin.AdminModule',
-        'forceCopy' => YII_DEBUG ? true : false,
+        'class' => 'application.modules.admin.AdminModule'
 	),
 
 );

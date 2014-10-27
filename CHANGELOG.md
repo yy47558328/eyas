@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.2
+ * 使用 BackendAsset 扩展重新导入后台资源文件.
+ * 建立公共资源库 bower.
+ * 建立公共资源类库 assets.
+ * 创建Jquery1.x公共资源类及文件.
+
+
 ## 0.3.1
  * 替换配置文件中所有 __DIR__ 为 __FILE__.
  * 添加 aliases配置文件.

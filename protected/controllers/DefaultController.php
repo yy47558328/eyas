@@ -6,6 +6,6 @@ class DefaultController extends Controller
 {
 	public function actionIndex()
 	{
-		AsHelper::dump(Yii::getPathOfAlias('backend'));
+		
 	}
 }
