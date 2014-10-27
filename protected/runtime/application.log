@@ -1740,3 +1740,93 @@ Stack trace:
 REQUEST_URI=/git/eyas/assets/css/theme-blue.min.css
 HTTP_REFERER=http://localhost/git/eyas/admin
 ---
+2014/10/27 01:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/eyas.min.css".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/eyas...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/assets/css/eyas.min.css
+HTTP_REFERER=http://localhost/git/eyas/admin
+---
+2014/10/27 01:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "script/jquery-1.11.1.min.js".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('script/jquery-1...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/script/jquery-1.11.1.min.js
+HTTP_REFERER=http://localhost/git/eyas/admin
+---
+2014/10/27 01:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "script/jquery.eyas.navigat.js".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('script/jquery.e...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/script/jquery.eyas.navigat.js
+HTTP_REFERER=http://localhost/git/eyas/admin
+---
+2014/10/27 01:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/theme-blue.min.css".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/them...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/assets/css/theme-blue.min.css
+HTTP_REFERER=http://localhost/git/eyas/admin
+---
+2014/10/27 01:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8f0f84/js/eyas.min.css".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8f0f84/...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/assets/a8f0f84/js/eyas.min.css
+HTTP_REFERER=http://localhost/git/eyas/admin
+---
+2014/10/27 12:31:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "script/jquery-1.11.1.min.js".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('script/jquery-1...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/script/jquery-1.11.1.min.js
+HTTP_REFERER=http://localhost/git/eyas/admin
+---
+2014/10/27 12:31:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/theme-blue.min.css".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/them...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/assets/css/theme-blue.min.css
+HTTP_REFERER=http://localhost/git/eyas/admin
+---
+2014/10/27 12:31:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/eyas.min.css".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/eyas...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/assets/css/eyas.min.css
+HTTP_REFERER=http://localhost/git/eyas/admin
+---
+2014/10/27 12:31:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "script/jquery.eyas.navigat.js".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('script/jquery.e...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/script/jquery.eyas.navigat.js
+HTTP_REFERER=http://localhost/git/eyas/admin
+---
+2014/10/27 12:31:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8f0f84/js/eyas.min.css".' in D:\frameworks\yii_framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\frameworks\yii_framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8f0f84/...')
+#1 D:\frameworks\yii_framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\webroot\git\eyas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/eyas/assets/a8f0f84/js/eyas.min.css
+HTTP_REFERER=http://localhost/git/eyas/admin
+---

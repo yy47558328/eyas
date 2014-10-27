@@ -1,7 +1,5 @@
 <?php
 
-Yii::setPathOfAlias('backend', dirname(__DIR__) . DIRECTORY_SEPARATOR . 'modules' . DIRECTORY_SEPARATOR . 'admin');
-
 $main =  array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'My Web Application',
@@ -10,19 +8,22 @@ $main =  array(
 
 	// preloading 'log' component
 	'preload'=>array('log'),
+     
+     //alias name
+    'aliases' => require(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'aliases.php'),
 
+	'import'=> require(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'imports.php'),
 
-	'import'=> require(__DIR__ . DIRECTORY_SEPARATOR . 'imports.php'),
-
-	'modules'=> require(__DIR__ . DIRECTORY_SEPARATOR . 'modules.php'),
+	'modules'=> require(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'modules.php'),
 
 	// application components
 	'components'=>array(
 
-		'urlManager' => require(__DIR__ . DIRECTORY_SEPARATOR . 'url.php'),
+		'urlManager' => require(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'url.php'),
 		
-		'db'=> require(__DIR__ . DIRECTORY_SEPARATOR . 'database.php'),
+		'db'=> require(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'database.php'),
 
+        'assetBundle' => 'assetbundle.components.EaAssetBundle',
 		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
@@ -46,7 +47,7 @@ $main =  array(
 		),
 	),
 
-	'params'=> require(__DIR__ . DIRECTORY_SEPARATOR . 'params.php'),
+	'params'=> require(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'params.php'),
 );
 
 

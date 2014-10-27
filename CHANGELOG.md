@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.1
+ * 替换配置文件中所有 __DIR__ 为 __FILE__.
+ * 添加 aliases配置文件.
+ * 添加 assetbundle 扩展.
+
 ## 0.3.0
  * 创建admin模块.
  * 添加了后台首页主题
